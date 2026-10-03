@@ -1,0 +1,43 @@
+/* =========================================
+   LOGIN STYLES
+   ========================================= */
+
+.form-container {
+    background-color: var(--bg-surface);
+}
+
+.login-wrapper {
+    max-width: 450px;
+    width: 100%;
+}
+
+.text-layer {
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: var(--z-index-dropdown);
+}
+
+.monitore-text {
+    color: var(--color-gray-200);
+    max-width: 80%;
+}
+
+.acesso-text, .restrita-text {
+    color: var(--color-gray-200);
+}
+
+.restrita-text {
+    letter-spacing: 2px;
+}
+
+.ds-text-secondary {
+    color: var(--text-secondary);
+}
+
+.ds-text-primary {
+    color: var(--color-primary);
+    transition: color var(--transition-fast);
+}
+
+.ds-text-primary:hover {
+    color: var(--color-primary-hover);
+}

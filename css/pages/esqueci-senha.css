@@ -1,0 +1,81 @@
+/* =========================================
+   ESQUECI MINHA SENHA STYLES
+   ========================================= */
+
+.logo-esqueci {
+    border: 2px solid var(--color-warning);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-1);
+}
+
+.main-bg {
+    background: linear-gradient(160deg, var(--bg-surface) 0%, var(--color-gray-100) 55%, var(--color-gray-50) 100%);
+}
+
+.senac-header {
+    background-color: var(--color-primary);
+}
+
+/* ---- Imagem de fundo com opacidade baixa ---- */
+.esqueci-senha-main::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('../../assets/img/pexels-adempercem-35531329.jpg') center/cover no-repeat;
+    opacity: 0.15;
+    z-index: 0; 
+}
+
+.esqueci-senha-wrapper {
+    position: relative;
+    z-index: 1;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-lg);
+    border-radius: var(--radius-lg);
+}
+
+.esqueci-senha-wrapper {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-lg);
+    border-radius: var(--radius-lg);
+}
+
+.text-primary-custom {
+    color: var(--color-primary) !important;
+}
+
+.ds-text-secondary {
+    color: var(--text-secondary);
+}
+
+.ds-text-primary {
+    color: var(--color-primary);
+}
+
+.hover-primary:hover {
+    color: var(--color-primary) !important;
+}
+
+.tab-btn {
+    transition: background-color var(--transition-fast), box-shadow var(--transition-fast);
+    border: none;
+    font-size: var(--font-size-sm);
+}
+
+.tab-btn.active {
+    color: var(--color-primary) !important;
+    background-color: var(--bg-surface);
+    box-shadow: var(--shadow-sm);
+}
+
+.code-input {
+    letter-spacing: 0.4em;
+    font-family: monospace;
+}
+
+.code-input::placeholder {
+    letter-spacing: normal;
+    font-family: var(--font-family-base);
+}
